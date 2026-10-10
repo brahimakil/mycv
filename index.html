@@ -40,7 +40,7 @@
             </div>
             <div class="hero-stats">
                 <div class="stat">
-                    <h3>13</h3>
+                    <h3>9</h3>
                     <p>Documented Security Assessments</p>
                 </div>
                 <div class="stat">
@@ -164,7 +164,7 @@
         <!-- Security Assessments Section -->
         <section class="security projects" id="security">
             <h2>Ethical Hacking & Red Team Assessments</h2>
-            <p class="section-intro">Thirteen documented engagements across web, API, cloud-connected, infrastructure, and embedded-device environments. Target names are shown at the portfolio owner's direction while technical exploit details remain withheld.</p>
+            <p class="section-intro">Nine documented engagements across web, API, cloud-connected, infrastructure, and embedded-device environments. Several assessments reached confirmed full-system compromise; every outcome below is limited to what the retained evidence supports.</p>
             <div class="confidentiality-note">
                 <strong>Disclosure standard:</strong> Entries show target names, assessment context, and high-level finding classes only. No live domains, endpoints, payloads, credentials, personal data, or reproduction steps are published.
             </div>
@@ -173,6 +173,7 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>BrainSpace ERP</h3><span class="badge badge-primary">Web & API</span></div>
                     <p class="project-description">Assessed tenant isolation, authentication boundaries, file handling, and exposed application services.</p>
+                    <div class="assessment-outcome outcome-critical"><strong>Outcome:</strong> Confirmed full-system compromise</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">Auth Bypass</span><span class="tech-tag">IDOR / BOLA</span><span class="tech-tag">Path Traversal</span><span class="tech-tag">File Upload</span><span class="tech-tag">Pre-Auth RCE</span><span class="tech-tag">Data Exposure</span><span class="tech-tag">Misconfiguration</span></div>
                 </article>
@@ -180,6 +181,7 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>VioletPro / FoodServiceLB</h3><span class="badge badge-primary">Multi-System</span></div>
                     <p class="project-description">Reviewed connected business applications, administrative surfaces, and data-handling workflows.</p>
+                    <div class="assessment-outcome outcome-critical"><strong>Outcome:</strong> Confirmed full-system compromise</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">SQLi</span><span class="tech-tag">Upload RCE</span><span class="tech-tag">Broken Authorization</span><span class="tech-tag">Stored XSS</span><span class="tech-tag">Weak Cryptography</span><span class="tech-tag">Backup Exposure</span></div>
                 </article>
@@ -187,6 +189,7 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>Omega Software</h3><span class="badge badge-info">API Security</span></div>
                     <p class="project-description">Validated cross-tenant controls, injection resistance, error handling, and automated-abuse protections.</p>
+                    <div class="assessment-outcome"><strong>Outcome:</strong> Confirmed high-impact cross-tenant access</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">Time-Based SQLi</span><span class="tech-tag">Cross-Tenant Access</span><span class="tech-tag">Path Disclosure</span><span class="tech-tag">Rate Limiting</span><span class="tech-tag">CAPTCHA Weakness</span></div>
                 </article>
@@ -194,6 +197,7 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>ChiBox / Brainkets</h3><span class="badge badge-info">Web & Mobile</span></div>
                     <p class="project-description">Assessed registration, upload, session, exposed-service, and client-side source controls.</p>
+                    <div class="assessment-outcome outcome-critical"><strong>Outcome:</strong> Confirmed full-system compromise</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">Upload RCE</span><span class="tech-tag">Privileged Registration</span><span class="tech-tag">Secret Exposure</span><span class="tech-tag">Service Exposure</span><span class="tech-tag">Session Weakness</span></div>
                 </article>
@@ -201,6 +205,7 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>Lebanese International University</h3><span class="badge badge-primary">Education</span></div>
                     <p class="project-description">Tested public and authenticated portal surfaces, session controls, input handling, and error behavior.</p>
+                    <div class="assessment-outcome"><strong>Outcome:</strong> Confirmed injection and sensitive-data exposure</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">SQLi</span><span class="tech-tag">Reflected XSS</span><span class="tech-tag">Error Disclosure</span><span class="tech-tag">Data Exposure</span><span class="tech-tag">CSRF</span><span class="tech-tag">Cookie Security</span></div>
                 </article>
@@ -208,20 +213,15 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>Phenix Solutions Plus</h3><span class="badge badge-info">Authorization</span></div>
                     <p class="project-description">Evaluated account-resource isolation, registration workflows, and exposure of application internals.</p>
+                    <div class="assessment-outcome"><strong>Outcome:</strong> Confirmed cross-account resource access</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">IDOR / BOLA</span><span class="tech-tag">Path Disclosure</span><span class="tech-tag">Configuration Exposure</span><span class="tech-tag">Source Exposure</span><span class="tech-tag">Workflow Weakness</span></div>
                 </article>
 
                 <article class="project-card security-card">
-                    <div class="project-header"><h3>MTV Lebanon</h3><span class="badge badge-primary">Content Platform</span></div>
-                    <p class="project-description">Reviewed media APIs, upload controls, account flows, token handling, and subscription boundaries.</p>
-                    <h4>Finding Classes</h4>
-                    <div class="tech-stack"><span class="tech-tag">API Exposure</span><span class="tech-tag">Content Upload</span><span class="tech-tag">Account Enumeration</span><span class="tech-tag">Rate Limiting</span><span class="tech-tag">Token Leakage</span><span class="tech-tag">Access-Control Bypass</span></div>
-                </article>
-
-                <article class="project-card security-card">
                     <div class="project-header"><h3>Hikvision NVR</h3><span class="badge badge-secondary">Lab Research</span></div>
                     <p class="project-description">Performed controlled embedded-device testing and separated confirmed behavior from unproven research paths.</p>
+                    <div class="assessment-outcome"><strong>Outcome:</strong> Confirmed unauthenticated device denial of service</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">Unauthenticated DoS</span><span class="tech-tag">Metadata Exposure</span><span class="tech-tag">Service Exposure</span><span class="tech-tag">Firmware Analysis</span></div>
                 </article>
@@ -229,36 +229,17 @@
                 <article class="project-card security-card">
                     <div class="project-header"><h3>Islamic University of Lebanon</h3><span class="badge badge-secondary">Reconnaissance</span></div>
                     <p class="project-description">Mapped public-facing education infrastructure and recorded confirmed exposure and negative test results.</p>
+                    <div class="assessment-outcome"><strong>Outcome:</strong> Confirmed public data exposure and attack-surface findings</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">Directory Exposure</span><span class="tech-tag">Data Exposure</span><span class="tech-tag">Error Leakage</span><span class="tech-tag">Negative Testing</span></div>
                 </article>
 
                 <article class="project-card security-card">
-                    <div class="project-header"><h3>HAMIT</h3><span class="badge badge-info">Infrastructure & API</span></div>
-                    <p class="project-description">Assessed exposed services, account-discovery behavior, abuse controls, and API authorization.</p>
-                    <h4>Finding Classes</h4>
-                    <div class="tech-stack"><span class="tech-tag">Database Exposure</span><span class="tech-tag">Account Enumeration</span><span class="tech-tag">Rate Limiting</span><span class="tech-tag">RBAC Validation</span><span class="tech-tag">JWT Testing</span></div>
-                </article>
-
-                <article class="project-card security-card">
                     <div class="project-header"><h3>Learny Labs</h3><span class="badge badge-secondary">Surface Assessment</span></div>
                     <p class="project-description">Reviewed password-recovery controls, browser defenses, and the public application attack surface.</p>
+                    <div class="assessment-outcome"><strong>Outcome:</strong> Confirmed account-recovery control weakness</div>
                     <h4>Finding Classes</h4>
                     <div class="tech-stack"><span class="tech-tag">Password-Reset Controls</span><span class="tech-tag">Rate Limiting</span><span class="tech-tag">Missing CSP</span><span class="tech-tag">Attack-Surface Mapping</span></div>
-                </article>
-
-                <article class="project-card security-card">
-                    <div class="project-header"><h3>Ayoub Computers</h3><span class="badge badge-secondary">Methodology</span></div>
-                    <p class="project-description">Applied structured GraphQL and injection testing while distinguishing confirmed issues from negative or inconclusive results.</p>
-                    <h4>Finding Classes</h4>
-                    <div class="tech-stack"><span class="tech-tag">Security Headers</span><span class="tech-tag">Information Disclosure</span><span class="tech-tag">GraphQL Testing</span><span class="tech-tag">Negative Testing</span></div>
-                </article>
-
-                <article class="project-card security-card">
-                    <div class="project-header"><h3>Namou Properties</h3><span class="badge badge-secondary">Reconnaissance</span></div>
-                    <p class="project-description">Performed attack-surface mapping and reviewed publicly exposed application content and infrastructure.</p>
-                    <h4>Finding Classes</h4>
-                    <div class="tech-stack"><span class="tech-tag">Source Exposure</span><span class="tech-tag">Content Exposure</span><span class="tech-tag">Infrastructure Mapping</span><span class="tech-tag">Service Fingerprinting</span></div>
                 </article>
             </div>
         </section>
@@ -589,7 +570,7 @@
                     <p>Major Projects Delivered</p>
                 </div>
                 <div class="stat-card">
-                    <h3>13</h3>
+                    <h3>9</h3>
                     <p>Documented Security Assessments</p>
                 </div>
                 <div class="stat-card">

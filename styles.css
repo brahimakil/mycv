@@ -425,6 +425,30 @@ body {
     margin-bottom: 0;
 }
 
+.assessment-outcome {
+    margin: 0.25rem 0 0.5rem;
+    padding: 0.7rem 0.85rem;
+    color: var(--text-secondary);
+    background: rgba(59, 130, 246, 0.08);
+    border-left: 3px solid var(--info-color);
+    border-radius: 0.4rem;
+    font-size: 0.86rem;
+    line-height: 1.5;
+}
+
+.assessment-outcome strong {
+    color: var(--info-color);
+}
+
+.assessment-outcome.outcome-critical {
+    background: rgba(236, 72, 153, 0.08);
+    border-left-color: var(--accent-color);
+}
+
+.assessment-outcome.outcome-critical strong {
+    color: var(--accent-color);
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
