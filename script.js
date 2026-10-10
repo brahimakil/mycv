@@ -30,22 +30,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Form submission
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(this);
-    
-    // Here you would typically send the data to a backend service
-    // For now, we'll just show a success message
-    alert('Thank you for your message! I will get back to you soon.');
-    this.reset();
-    });
-}
-
 // Animation on scroll
 const observerOptions = {
     threshold:  0.1,
